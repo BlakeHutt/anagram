@@ -4,10 +4,10 @@ set(CMAKE_CXX_STANDARD 14)
 
 project(Anagram)
 
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src/anagram)
+add_subdirectory(src)
 
 add_executable(anagram
-    ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
+    main.cpp
 )
 
 target_link_libraries(anagram
